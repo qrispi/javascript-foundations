@@ -6,6 +6,10 @@ class Vampire {
         } else {
             this.pet = pet
         }
+        this.thirsty = true
+    }
+    drink() {
+        this.thirsty = false
     }
 }
 
