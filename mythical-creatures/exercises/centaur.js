@@ -7,8 +7,7 @@ class Centaur {
         this.layingDown = false
         this.activities = 0
         this.layDown = this.standUp = () => {
-            this.standing = !this.standing
-            this.layingDown = !this.layingDown
+            [this.standing, this.layingDown] = [this.layingDown, this.standing]
         }
     }
 
