@@ -32,4 +32,6 @@ Run the command `npm test mythical-creatures/test/unicorn-test.js`. To run other
 
 ### Extra Challenge: Make a New Creature!
 
+Ideas: Boggart (harry potter style with a human pair), Genie (grants wishes, but with a twist), Harpie(sings to sailors and lures them to death if they like the song and listening), Cthulhu (ends world, slowly & destroys ships but survivors live to tell the tale), Zombie (eats brains and creates more zombies), Elf(spin on the three types from ELF) 
+
 Start by making a new test file in the test directory and write all of the tests. Then, add in a file in the exercises directory and write the code necessary to pass all of the tests you wrote. Send your new creature to your instructors - We may add it into the official test suite!
