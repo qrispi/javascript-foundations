@@ -6,6 +6,10 @@ class Centaur {
         this.standing = true
         this.layingDown = false
         this.activities = 0
+        this.layDown = this.standUp = () => {
+            this.standing = !this.standing
+            this.layingDown = !this.layingDown
+        }
     }
 
     shootBow() {
@@ -41,15 +45,6 @@ class Centaur {
             this.cranky = false
             return 'ZZZZ'
         }
-    }
-
-    layDown() {
-        this.standing = !this.standing
-        this.layingDown = !this.layingDown
-    }
-
-    standUp() {
-       this.layDown()
     }
 
     drinkPotion() {
